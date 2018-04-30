@@ -1,7 +1,7 @@
 ﻿#  主题名称：Typecho-Simple-Themes
- ## 作者：wiley
- ## QQ：3365977521
- ## 博客地址：www.wileysec.com
+ `作者：wiley`
+ `QQ：3365977521`
+ `博客地址：www.wileysec.com`
 
 
 
