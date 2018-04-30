@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+/*通用样式*/
+
+*{
+	font-family:"PingFang SC","Open Sans","Helvetica Neue","DejaVu Sans",Arial,"Noto Sans CJK SC","Hiragino Sans GB","微软雅黑",Helvetica,sans-serif;
+}
+
+body{
+	background:#EEE!important;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span{
+	line-height:1.5!important;
+}
+
+.content img{
+  display:inline-block;
+  height:auto;
+  max-width:100%;
+}
+
+/*响应式*/
+
+
+/*大屏幕，高分辨率*/
+@media (max-width: 1920px){
+	nav a{
+		text-decoration:none!important;
+		color:#fff!important;
+		font-size:1.1em;
+		float:left;
+		margin-left:15px;
+		margin-right:15px;
+	}
+
+	.container{
+		margin-top:70px;
+	}
+
+	.bg-light{
+		background:#339999!important;
+		color:#fff!important;
+	}
+
+	.navbar{
+		padding-left:5%!important;
+		padding-right:8%!important;
+	}
+
+	.navbar-nav{
+		margin-left:1%;
+		margin-right:2%;
+	}
+
+	.form-group{
+		margin-bottom:0px!important;
+	}
+
+	.search-form .col-md-10{
+		padding-right:0px;
+		padding-left:10px;
+	}
+
+
+	.search-form .col-md-2{
+		padding-right:10px;
+		padding-left:10px;
+	}
+
+	nav #search-btn{
+		position:absolute;
+		right:5%;
+		top:15px;
+	}
+
+	.collapse{
+		margin-right:15px;
+	}
+
+	.article{
+		margin-bottom:30px;
+	}
+
+	.content{
+		width:100%;
+		height:auto;
+		box-shadow: 0 7px 10px #999;
+		background:#fff;
+		display:block;
+		padding:30px;
+		outline: 1px solid #CCC;
+		padding-bottom:30px;
+		word-wrap:break-word;
+	}
+
+	.sidebar{
+		width:100%;
+		height:100%;
+		background:#E0E0E0;
+		box-shadow: 0 7px 10px #999;
+		outline: 1px solid #CCC;
+		padding:15px;
+		display:block;
+		margin-left:2px;
+	}
+
+	.col-md-9,.col-md-3{
+		padding-left:0px!important;
+		padding-right:0px!important;
+	}
+
+	.footer{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+
+	.author{
+		width:100%;
+		height:auto;
+	}
+
+	.author p{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.author img{
+		width:150px;
+		border-radius:50%;
+		display:block;
+		margin:0 auto;
+	}
+
+	.author .links a{
+		text-decoration:none;
+		color:#000;
+		margin:5px;
+	}
+
+	.pages{
+		margin-top:30px;
+		font-size:1.3em;
+	}
+
+	.pages .prev,.next{
+		text-decoration:none;
+		color:#000;
+	}
+
+	.pages .prev:hover,.next:hover{
+		text-decoration:none;
+		color:#414141;
+	}
+
+	.pages span{
+		margin-left:15px;
+		margin-right:15px;
+	}
+
+	article{
+		padding:5%;
+		border-bottom:1px solid #E0E0E0;
+		word-wrap:break-word;
+	}
+
+	article .title{
+		margin-bottom:10px;
+	}
+
+	article .date,.post-content-preview{
+		margin-bottom:30px;
+		padding-left:5%;
+		font-size:1.1em;
+	}
+
+	article .more{
+		margin-top:15px;
+		margin-bottom:15px;
+		padding-left:2%;
+	}
+
+	.article ul{
+		color:#666;
+		padding-left:15px;
+		font-size:15px;
+	}
+
+	.article ul li{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.article ul li a{
+		color:#62A7E9;
+	}
+
+	#rss{
+		width:100px;
+		display:block;
+		padding:5px;
+		text-align:center;
+		border-radius:5px;
+		border:1px solid #000;
+		color:#666;
+		float:right;
+      	margin-top:10px;
+	}
+
+	.post .post-header{
+		padding-left:3%;
+	}
+
+	.post .post-header p{
+		padding-left:5%;
+		font-size:1.1em;
+	}
+
+	.post .post-body{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+
+	.post .post-body p:first-child{
+		padding-left:3%;
+		margin-bottom:30px;
+		font-size:1.2em;
+	}
+
+	.post .post-body h2{
+		border-bottom:1px solid #eee;
+	}
+
+	pre code{
+		font-size:1.5em;
+	}
+
+	.error{
+		width:100%;
+		height:500px;
+		padding:5%;
+	}
+}
+
+
+/*中等屏幕，iPad 平板等设备*/
+@media (max-width: 1200px){
+
+	.navbar-brand{
+		margin:0 auto!important;
+	}
+
+	.article .col-md-9{
+		max-width:100%!important;
+		flex:0px 0px 100%!important;
+	}
+
+	nav #search-btn{
+		right:2%;
+		top:15px;
+	}
+
+	nav{
+		margin-bottom:10px;
+	}
+
+	.content{
+		padding:35px;
+	}
+
+	.sidebar{
+		display:none;
+	}
+
+	.search-form .col-md-10{
+		width:75%;
+		display:inline;
+	}
+
+	.search-form .col-md-2{
+		width:20%;
+		display:inline;
+	}
+
+	article .title{
+		margin-bottom:20px;
+	}
+}
+
+
+/*小屏幕，手机*/
+@media (max-width: 768px){
+
+	nav #search-btn{
+		right:5%;
+	}
+
+	.navbar{
+		padding-left:0px!important;
+		padding-right:14%!important;
+	}
+
+	.navbar-collapse a{
+		font-size:1.1em;
+		margin-top:30px;
+		margin-bottom:10px;
+	}
+
+	.container{
+		margin-top:50px;
+	}
+}
+
+
+/*超小屏幕，小手机 如：iPhone 4s等*/
+@media (max-width: 576px){
+
+	nav #search-btn{
+		right:1%;
+		top:15px;
+	}
+
+	.navbar{
+		padding-left:0px!important;
+		padding-right:14%!important;
+	}
+
+	.navbar-collapse a{
+		font-size:1em;
+		margin-top:30px;
+		margin-bottom:10px;
+		text-align:center;
+	}
+
+	nav{
+		margin-bottom:0px;
+	}
+
+	.content{
+		padding:15px;
+	}
+
+	.sidebar{
+		display:none;
+	}
+
+	.search-form .col-md-10{
+		width:75%;
+		display:inline;
+	}
+
+	.search-form .col-md-2{
+		width:20%;
+		display:inline;
+	}
+
+	article .title{
+		margin-bottom:20px;
+	}
+}
