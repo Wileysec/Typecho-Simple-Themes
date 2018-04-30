@@ -1,4 +1,7 @@
 ﻿#  主题名称：Typecho-Simple-Themes
+ 
+ **本博客主题不自带评论功能，如果需要评论功能请自行写或者使用第三方评论插件。**
+
  `作者：wiley`
  `QQ：3365977521`
  `博客地址：www.wileysec.com`
