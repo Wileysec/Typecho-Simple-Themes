@@ -16,3 +16,6 @@
 2018.04.05:
 
 1.添加了后台可以修改前台个人信息的功能。
+
+# 主题预览：
+![Typecho-Simple-Themes](https://raw.githubusercontent.com/Wileysec/Typecho-Simple-Themes/master/screenshot.png "Typecho-Simple-Themes")
