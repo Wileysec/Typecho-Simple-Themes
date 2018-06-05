@@ -23,7 +23,7 @@
 </div>
 <hr>
 <div class="article">
-    <p>New Article</p>
+    <p>New Articles</p>
     <ul>
         <?php $this->widget('Widget_Contents_Post_Recent')->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
     </ul>
