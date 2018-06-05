@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 	}
 
 	.container{
-		margin-top:70px;
+		margin-top:80px;
 	}
 
 	.bg-light{
@@ -86,7 +86,7 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 		width:100%;
 		height:auto;
 		box-shadow: 0 4px 5px #999;
-		background:#fff;
+		background:#FAFAFA;
 		display:block;
 		padding:30px;
 		outline: 1px solid #CCC;
