@@ -14,10 +14,43 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 	line-height:1.5!important;
 }
 
+a{
+	font-size:1.1em;
+}
+
+table{
+    border-collapse:collapse;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  	border: 0;
+  	margin:0 auto!important;
+  	font-size:1.2em;
+}
+
+table td,th{
+    border: 1px solid #ddd !important;
+  	padding:15px;
+  	text-align:center!important;
+  	color:#000;
+}
+
+table tr th{
+	background:#555;
+  	border-color:#555!important;
+  	color:#FAFAFA;
+}
+
 .content img{
   display:inline-block;
   height:auto;
   max-width:100%;
+}
+
+.fa-2x{
+	font-size:1.5em!important;
 }
 
 /*响应式*/
@@ -34,8 +67,12 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 		margin-right:15px;
 	}
 
+  	p{
+  		font-size:1.1em;
+  	}
+  
 	.container{
-		margin-top:80px;
+		margin-top:30px;
 	}
 
 	.bg-light{
@@ -128,6 +165,7 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 	.author img{
 		width:150px;
 		border-radius:50%;
+      	border:2px solid #fff;
 		display:block;
 		margin:0 auto;
 	}
@@ -193,6 +231,7 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 
 	.article ul li a{
 		color:#62A7E9;
+      	font-size:1.1em;
 	}
 
 	#rss{
@@ -200,11 +239,11 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 		display:block;
 		padding:5px;
 		text-align:center;
-		border-radius:5px;
 		border:1px solid #000;
 		color:#666;
 		float:right;
       	margin-top:10px;
+      	font-size:1em;
 	}
 
 	.post .post-header{
@@ -234,7 +273,7 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 	.post .post-body h2{
       	background:linear-gradient(to left, #CCC, #399);
       	color:#fff;
-      	padding:10px;
+      	padding:5px;
 		padding-left:20px;
       	border-radius:10px;
 	}
@@ -259,6 +298,10 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 		height:500px;
 		padding:5%;
 	}
+  
+  	.footer p{
+  		font-size:1.1em;
+  	}
 }
 
 
@@ -326,7 +369,7 @@ h1,h2,h3,h4,h5,h6,a,p,span{
 	}
 
 	.container{
-		margin-top:50px;
+		margin-top:0px;
 	}
   
   	.post .post-body p code{
