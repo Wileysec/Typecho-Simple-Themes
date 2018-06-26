@@ -24,6 +24,9 @@ function themeConfig($form) {
     $Email = new Typecho_Widget_Helper_Form_Element_Text('Email', NULL, NULL, _t('邮箱'), _t('请输入邮箱'));
     $form->addInput($Email);
 
+    $QQ = new Typecho_Widget_Helper_Form_Element_Text('QQ', NULL, NULL, _t('QQ'), _t('请输入您的QQ'));
+    $form->addInput($QQ);
+  
     $Github = new Typecho_Widget_Helper_Form_Element_Text('Github', NULL, NULL, _t('Github'), _t('请输入 Github 地址'));
     $form->addInput($Github);
 

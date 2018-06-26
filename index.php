@@ -15,9 +15,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div class="container">
 	<div class="row article">
 		<div class="col-md-9">
-			<div class="content">
+			<div class="content flag">
 				<h1 class="float-left">Articles</h1>
-				<a href="<?php $this->options->feedUrl(); ?>" target="_blank" id="rss" title="RSS订阅">Rss Feed <i class="icon-rss"> </i></a>
+				<a href="<?php $this->options->feedUrl(); ?>" target="_blank" id="rss" title="RSS订阅">Rss Feed <i class="fas fa-rss"></i></a>
 				<div class="clearfix"></div>
 				<?php while($this->next()): ?>
 		        <article>
@@ -27,7 +27,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 			        	</a>
 			        </h4>
 			        <div class="date">
-			        	<?php $this->date('F j, Y'); ?>
+			        	<?php $this->date('Y-m-d'); ?>
 			        </div>
 		            <div class="post-content-preview">
 		                <?php $this->excerpt(200,'...'); ?>
@@ -45,6 +45,13 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 		<div class="col-md-3">
 			<div class="sidebar">
 				<?php $this->need("sidebar.php"); ?>
+              	<hr>
+                <div class="article">
+                  <p class="text-center">New Articles</p>
+                  <ul>
+                      <?php $this->widget('Widget_Contents_Post_Recent')->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+                  </ul>
+                </div>
 			</div>
 		</div>
 	</div>

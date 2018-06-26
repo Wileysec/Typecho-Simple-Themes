@@ -18,6 +18,22 @@
 		<div class="col-md-3">
 			<div class="sidebar">
 				<?php $this->need("sidebar.php"); ?>
+              	<hr>
+                <div class="toc">
+                  <p class="text-center">TOC</p>
+                  <ul>
+                      <script>
+                        $(document).ready(function(){
+                            for(i=0;i<$('.post-body>h2').length;i++){
+                                dic="dic"+Math.random();
+                                $('.post-body>h2').eq(i).attr("id",dic);
+                                str="<li><a href='#"+dic+"'>"+$('.post-body>h2').eq(i).html()+"</a></li>";
+                                $('.toc>ul').append(str);
+                            }
+                        });
+                      </script>
+                  </ul>
+              	</div>
 			</div>
 		</div>
 	</div>

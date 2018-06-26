@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/main.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/monokai.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>">
+    <!-- <link rel="stylesheet" href="<?php $this->options->themeUrl('css/font-awesome.min.css'); ?>"> -->
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<script src="<?php $this->options->themeUrl('js/jquery.min.js'); ?>"></script>
 	<script src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
 	<script src="<?php $this->options->themeUrl('js/bootstrap.min.js'); ?>"></script>
@@ -30,9 +31,9 @@
 	<!--[if lt IE 9]>
 	    <div class="browsehappy" role="dialog"><?php _e('当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>'); ?>.</div>
 	<![endif]-->
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->nav_title() ?></a>
-		<a href="javascript:;" data-toggle="modal" data-target="#searchModal" id="search-btn"><i class="icon-search"></i></a>
+		<a href="javascript:;" data-toggle="modal" data-target="#searchModal" id="search-btn"><i class="fas fa-search"></i></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
 	  	</button>
